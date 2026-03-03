@@ -70,8 +70,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/vmlinux-to-elf.git",
-                    "tag": "1.2.0.post1",
-                    "commit": "75dbfd75c8f019d4fca009458d49cd27c7e31569"
+                    "tag": "1.2.0",
+                    "commit": "51ca22a681d19924a77f7c93fd9130f48445c01a"
                 }
             ]
         }
