@@ -1,6 +1,6 @@
 # `re.fossplant.vmlinux-to-elf`
 
-This repository contains a Flatpak template for the building https://github.com/marin-m/vmlinux-to-elf GUI
+This repository contains a Flatpak template for building the https://github.com/marin-m/vmlinux-to-elf GUI
 
 ## Local build instructions
 
@@ -29,14 +29,13 @@ These command will generate a `python3-vmlinux-to-elf.json` file that can serve 
 ```bash
 cd
 git clone git@github.com:flatpak/flatpak-builder-tools.git
+git clone git@github.com:flathub/re.fossplant.vmlinux-to-elf.git
 
-cd flatpak-builder-tools/pip
+cd ~/flatpak-builder-tools/pip
 uv sync --all-groups --frozen
 source .venv/bin/activate
 
-cd
-mkdir -p re.fossplant.vmlinux-to-elf
-cd re.fossplant.vmlinux-to-elf
+cd ~/re.fossplant.vmlinux-to-elf
 ~/flatpak-builder-tools/pip/flatpak-pip-generator vmlinux-to-elf[gui]
 ```
 
