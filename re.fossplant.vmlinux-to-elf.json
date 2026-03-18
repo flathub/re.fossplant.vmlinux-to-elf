@@ -50,8 +50,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/76/2a/ef5972f4423c4fffd8c5ab6cf7d1d49c83d61fc782f2f6daf2651355b0d2/vmlinux_to_elf-1.2.2-py3-none-any.whl",
-                    "sha256": "18dbe9389f5f4cb2d1607102426bb019013d17b5359a3b3bb7c199a87355dbea"
+                    "url": "https://files.pythonhosted.org/packages/f8/ee/794fffa09af4711b29804cfcf871248d3efc15647c8dcfe4754e65338002/vmlinux_to_elf-1.2.3-py3-none-any.whl",
+                    "sha256": "01807bd1f88be3786cc59704b295971f8ccf9d6293812e5dbe39706568a2da5f"
                 }
             ]
         },
@@ -64,14 +64,15 @@
                 "mkdir -p /app/share/applications/",
                 "cp -r ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.svg /app/share/icons/hicolor/scalable/apps/",
                 "cp -r ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.metainfo.xml /app/share/metainfo/",
-                "cp -r ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.desktop /app/share/applications/"
+                "cp -r ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.desktop /app/share/applications/",
+                "rm -rf ./vmlinux_to_elf/ *.g* packaging pics *.lock *.md *.yaml *.toml LICENSE"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/vmlinux-to-elf.git",
-                    "tag": "1.2.2",
-                    "commit": "03af669f89688012a81eff9acd4c26a687cda3a6"
+                    "tag": "1.2.3",
+                    "commit": "8877a23707ad99aa24f1d9cb7f70c7ad41c3f390"
                 }
             ]
         }
