@@ -1,8 +1,8 @@
 {
     "app-id": "re.fossplant.vmlinux-to-elf",
+    "sdk": "org.gnome.Sdk",
     "runtime": "org.gnome.Platform",
     "runtime-version": "50",
-    "sdk": "org.gnome.Sdk",
     "command": "vmlinux-to-elf-gui",
     "finish-args": [
         "--share=ipc",
