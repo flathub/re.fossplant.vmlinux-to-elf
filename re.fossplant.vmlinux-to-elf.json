@@ -50,8 +50,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7f/1b/ada0751a1fccd9792fed2668b94496b6d021991ddd3272ced988c04a07b0/vmlinux_to_elf-1.3.1-py3-none-any.whl",
-                    "sha256": "c913afb6db1408740af4b9e4faeab9b4d61a267b5abb7cc837444acb42ce6272"
+                    "url": "https://files.pythonhosted.org/packages/37/e1/81b085f9e3633d2318cb385e278321c60556bbaf56e45987e81bc7313407/vmlinux_to_elf-1.3.2-py3-none-any.whl",
+                    "sha256": "f8cdaa9fffa8cc063659a7ff216f4e722c41e776ac05aaeb9ac76d33ea3a11ee"
                 }
             ]
         },
@@ -71,8 +71,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/vmlinux-to-elf.git",
-                    "tag": "1.3.1",
-                    "commit": "2360d636b1b028ba1dbe26d5614bc567f3ea104a"
+                    "tag": "1.3.2",
+                    "commit": "d65716128c40ab24a4911a3d46290af98eaba86c"
                 }
             ]
         }
