@@ -40,11 +40,6 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1f/86/b87f8d9ecb01effa2b17319b9b0a8852c29374ab7c5268a44597cb1605c7/pygobject-3.56.0.tar.gz",
-                    "sha256": "4fbb5bf47524e01026f8e309dd54233eb0f75f2281392c5bf0df5d9041cc7891"
-                },
-                {
-                    "type": "file",
                     "url": "https://files.pythonhosted.org/packages/fd/aa/3e0508d5a5dd96529cdc5a97011299056e14c6505b678fd58938792794b1/zstandard-0.25.0.tar.gz",
                     "sha256": "7713e1179d162cf5c7906da876ec2ccb9c3a9dcbdffef0cc7f70c3667a205f0b"
                 },
@@ -59,12 +54,9 @@
             "name": "vmlinux-to-elf",
             "buildsystem": "simple",
             "build-commands": [
-                "mkdir -p /app/share/icons/hicolor/scalable/apps/",
-                "mkdir -p /app/share/metainfo/",
-                "mkdir -p /app/share/applications/",
-                "cp -r ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.svg /app/share/icons/hicolor/scalable/apps/",
-                "cp -r ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.metainfo.xml /app/share/metainfo/",
-                "cp -r ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.desktop /app/share/applications/",
+                "install -Dm644 ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.svg -t /app/share/icons/hicolor/scalable/apps/",
+                "install -Dm644 ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.metainfo.xml -t /app/share/metainfo/",
+                "install -Dm644 ./vmlinux_to_elf/ui/assets/re.fossplant.vmlinux-to-elf.desktop -t /app/share/applications/",
                 "rm -rf ./vmlinux_to_elf/ *.g* packaging pics *.lock *.md *.yaml *.toml LICENSE"
             ],
             "sources": [
