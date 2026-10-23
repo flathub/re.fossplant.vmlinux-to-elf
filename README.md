@@ -4,7 +4,7 @@ This repository contains a Flatpak template for building the https://github.com/
 
 ## Utilities
 
-These command will generate a `python3-vmlinux-to-elf.json` file that can serve as a template for the dependencies included from `re.fossplant.vmlinux-to-elf.yaml`:
+These command will generate a `python3-modules.json` file that can serve as a template for the dependencies included from `re.fossplant.vmlinux-to-elf.yaml`:
 
 ```bash
 cd
