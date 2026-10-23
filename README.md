@@ -1,4 +1,4 @@
-# `re.fossplant.vmlinux-to-elf`
+# [vmlinux-to-elf](https://flathub.org/apps/details/re.fossplant.vmlinux-to-elf)
 
 This repository contains a Flatpak template for building the https://github.com/marin-m/vmlinux-to-elf GUI
 
