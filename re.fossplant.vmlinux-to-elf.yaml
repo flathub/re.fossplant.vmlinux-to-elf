@@ -23,8 +23,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/marin-m/vmlinux-to-elf
-        tag: 1.3.6.1
-        commit: 2d094bc9c220b6b50f8215cbc3c9e581210ce1a6
+        tag: 1.3.7
+        commit: d6b633de2ebdb8c82701608de181458948ef56d9
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
