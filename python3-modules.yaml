@@ -32,8 +32,8 @@ sources:
       type: pypi
       name: zstandard
   - type: file
-    url: https://files.pythonhosted.org/packages/d2/47/778a75321b889c6781a2cd071fb10c68704194eac1824c4cad9eeda118cd/vmlinux_to_elf-1.3.7-py3-none-any.whl
-    sha256: 41b37d821e708a0725219f9209e891eb6aa2552a0f4292c1de236f7a5bb516ba
+    url: https://files.pythonhosted.org/packages/3c/9b/61d5e25f105f377d4a78f8e9c9b86fbbe54075ee7b30ff534c62e6fd3810/vmlinux_to_elf-1.4.0-py3-none-any.whl
+    sha256: e39db53723ae97f8fa45cae3626224212b382fef1318564b20ac3a7355530097
     x-checker-data:
       type: pypi
       name: vmlinux-to-elf
